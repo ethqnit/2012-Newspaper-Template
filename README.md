@@ -13,7 +13,7 @@ This is exactly how I submitted it in 2012 — broken links, old scripts, missin
 
 <div align="center">
   <br>
-  <img src=".github/2012-screenshot.jpg" alt="2012 Screenshot - Main Menu Working" width="900"/>
+  <img src="https://github.com/ethqnit/2012-Newspaper-Template/blob/main/Screenshot%202025-12-03%20224924.png?raw=true" alt="2012 Screenshot - Main Menu Working" width="900"/>
   <br><br>
   <sub><b>Proof it worked in 2012 — Flash animations, RSS feeds, full layout</b></sub>
 </div>
