@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<!--News-->
+<ul id="menu">
+  <img src="Media/WyomingNewsLogo.png" width="253" height="105" alt=""/><br>
+  <br>
+  <li><a href="index.html">Home</a></li>
+  <li><b href="page1.html">News</b></li>
+  <li><a href="page2.html">WyoSports</a></li>
+  <li><a href="page3.html">Obituaries</a></li>
+  <li><a href="page4.html">Entertainment</a></li>
+  <li><a href="page5.html">Opinion</a></li>
+  <li><a href="page6.html">Community</a></li>
+  <li><a href="page7.html">Real Estate</a></li>
+  <li><a href="page8.html">Classifields</a></li>
+</ul>        
+		  
+</left> 
+<p>&nbsp;</p>
+<br>
+<br>
+<br>
+<div id="container">
+<div id="containerh">
+<div class="columnhh"><form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+
+<p>Search JavaScript Kit:<br />
+<input id="hiddenquery" type="hidden" name="q" />
+<input name="qfront" type="text" style="width: 200px" value="navigator object" /> <input type="submit" value="Search" /><br />
+<div style="font: bold 11px Verdana;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+</div>
+
+<script type="text/javascript">
+
+// All-in-one Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+//Enter domain of site to search.
+var domainroot="www.javascriptkit.com"
+
+var searchaction=[ //form action for the 3 search engines
+"http://www.google.com/search",
+"http://search.yahoo.com/search",
+"http://search.msn.com/results.aspx"
+]
+
+var queryfieldname=["q","p","q"] //name of hidden query form for the 3 search engines
+
+function switchaction(cur, index){
+cur.form.action=searchaction[index]
+document.getElementById("hiddenquery").name=queryfieldname[index]
+}
+
+function jksitesearch(curobj){
+for (i=0; i< document.jksearch.se.length; i++){ //loop through radio to see which is checked
+if (document.jksearch.se[i].checked==true)
+switchaction(document.jksearch.se[i], i)
+}
+document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
+}
+
+
+</script>
+
+</p>
+
+</form>
+
+<p style="font: normal 11px Arial">This free script provided by<br />
+<a href="http://www.javascriptkit.com">JavaScript Kit</a></p></div>
+
+<br>
+<div class="column1"><script type="text/javascript" src="http://output27.rssinclude.com/output?type=js&amp;id=991455&amp;hash=ac243cbc63b96d674b19c7e522405910"></script>
+</div>
+<div class="column2"><script type="text/javascript" src="http://output54.rssinclude.com/output?type=js&amp;id=991457&amp;hash=35c46b16e2c4ca73c602e352bc236f0f"></script>
+</div></div>
+</body>
+</html>

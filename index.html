@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+</head>
+<body>
+<!--Home-->
+<ul id="menu">
+  <img src="Media/WyomingNewsLogo.png" width="253" height="105" alt=""/><br>
+  <br>
+  <li><b href="index.html">Home</b></li>
+  <li><a href="page1.html">News</a></li>
+  <li><a href="page2.html">WyoSports</a></li>
+  <li><a href="page3.html">Obituaries</a></li>
+  <li><a href="page4.html">Entertainment</a></li>
+  <li><a href="page5.html">Opinion</a></li>
+  <li><a href="page6.html">Community</a></li>
+  <li><a href="page7.html">Real Estate</a></li>
+  <li><a href="page8.html">Classifields</a></li>
+</ul>        
+		  
+</left> 
+<p>&nbsp;</p>
+<br>
+<br>
+<br>
+<div id="containerh">
+<div class="columnhh"><form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+
+<p>Search JavaScript Kit:<br />
+<input id="hiddenquery" type="hidden" name="q" />
+<input name="qfront" type="text" style="width: 200px" value="navigator object" /> <input type="submit" value="Search" /><br />
+<div style="font: bold 11px Verdana;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+</div>
+
+<script type="text/javascript">
+
+// All-in-one Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+//Enter domain of site to search.
+var domainroot="www.javascriptkit.com"
+
+var searchaction=[ //form action for the 3 search engines
+"http://www.google.com/search",
+"http://search.yahoo.com/search",
+"http://search.msn.com/results.aspx"
+]
+
+var queryfieldname=["q","p","q"] //name of hidden query form for the 3 search engines
+
+function switchaction(cur, index){
+cur.form.action=searchaction[index]
+document.getElementById("hiddenquery").name=queryfieldname[index]
+}
+
+function jksitesearch(curobj){
+for (i=0; i< document.jksearch.se.length; i++){ //loop through radio to see which is checked
+if (document.jksearch.se[i].checked==true)
+switchaction(document.jksearch.se[i], i)
+}
+document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
+}
+
+
+</script>
+
+</p>
+
+</form>
+
+<p style="font: normal 11px Arial">This free script provided by<br />
+<a href="http://www.javascriptkit.com">JavaScript Kit</a></p></div>
+
+<br>
+
+<div class="column1h">---------
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="297" height="220" id="FlashID" title="Breaking News">
+    <param name="movie" value="Media/smile.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="Media/smile.swf" width="297" height="220">
+      <!--<![endif]-->
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+      <div>
+        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+      </div>
+      <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+  </object>
+</div>
+<br>
+<div class="column2h"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="890" height="105">
+   <param name="movie" value="http://www.surfboost.com/ads/SurfBoost-Get%20More%20Work%20Done%20468x60.swf">
+   <param name=quality value=high>
+   <embed src="http://www.surfboost.com/ads/SurfBoost-Get%20More%20Work%20Done%20468x60.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="890" height="105"></embed> 
+</object></div>
+<br>
+<div id="largebox">
+<div id="column3h">
+  <object id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="252" height="300">
+    <param name="movie" value="Media/smile.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="Media/smile.swf" width="252" height="300">
+      <!--<![endif]-->
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+      <div>
+        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+      </div>
+      <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+  </object>
+</div>
+<div id="column4h">
+  <object id="FlashID3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="251" height="274">
+    <param name="movie" value="Media/smile.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="Media/smile.swf" width="251" height="274">
+      <!--<![endif]-->
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+      <div>
+        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+      </div>
+      <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+  </object>
+</div>
+<div id="column5h">
+  <object id="FlashID4" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="247" height="266">
+    <param name="movie" value="Media/smile.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="Media/smile.swf" width="247" height="266">
+      <!--<![endif]-->
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+      <div>
+        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+      </div>
+      <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+  </object>
+</div></div>
+</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID2");
+swfobject.registerObject("FlashID3");
+swfobject.registerObject("FlashID4");
+</script>
+</body>
+</html>
